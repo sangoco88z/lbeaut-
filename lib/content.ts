@@ -1,0 +1,102 @@
+export const categories = [
+  {
+    slug: "epilations",
+    title: "Épilations",
+    heading: "Épilations à Nampty",
+    seoTitle: "Épilation visage, corps et maillot à Nampty",
+    seoDescription: "Consultez les tarifs d’épilation du visage, du maillot et du corps, ainsi que la carte homme de L. Beauté à Nampty. Découvrez les zones et la remise corps.",
+    intro: "Retrouvez les tarifs d’épilation par zone chez L. Beauté, du visage au maillot, ainsi que les prestations pour homme.",
+    summary: "Visage, maillot et corps",
+    guide: {
+      heading: "Choisir les zones à épiler",
+      text: "Pour le visage, comparez les zones à l’unité et la prestation qui réunit les sourcils et les lèvres. La carte du corps distingue les demi-jambes, les trois-quarts et les jambes entières. Consultez la rubrique corps pour connaître la remise proposée sur plusieurs zones.",
+    },
+  },
+  {
+    slug: "beaute-du-regard",
+    title: "Beauté du regard",
+    heading: "Beauté du regard à Nampty",
+    seoTitle: "Rehaussement de cils et teinture à Nampty",
+    seoDescription: "Comparez les tarifs de teinture des cils et des sourcils, d’épilation des sourcils et de rehaussement de cils chez L. Beauté à Nampty.",
+    intro: "Teinture des cils ou des sourcils, rehaussement et prestations combinées pour composer votre rendez-vous.",
+    summary: "Teinture et rehaussement de cils",
+    guide: {
+      heading: "Teinture ou rehaussement de cils ?",
+      text: "La teinture apporte de la couleur aux cils ou aux sourcils, tandis que le rehaussement travaille la courbure des cils. La carte permet aussi d’associer un rehaussement à une teinture et à un soin à la kératine, ou une teinture des sourcils à leur épilation.",
+    },
+  },
+  {
+    slug: "mains-et-pieds",
+    title: "Mains et pieds",
+    heading: "Beauté des mains et des pieds à Nampty",
+    seoTitle: "Manucure et vernis semi-permanent à Nampty",
+    seoDescription: "Retrouvez les tarifs de la manucure, du semi-permanent et de la dépose, ainsi que les durées des soins des mains et des pieds chez L. Beauté à Nampty.",
+    intro: "Manucure express, vernis semi-permanent et soins des mains ou des pieds. Retrouvez les tarifs et les durées disponibles.",
+    summary: "Manucure, vernis et soins",
+    guide: {
+      heading: "Prévoir une pose, une dépose ou un soin",
+      text: "La pose de vernis semi-permanent est proposée en version classique ou french. La dépose figure séparément sur la carte. Si vous souhaitez surtout un soin, comparez le soin des mains ou des pieds et l’option anti-callosités YUMI pour les pieds.",
+    },
+  },
+  {
+    slug: "soins-du-visage",
+    title: "Soins du visage",
+    heading: "Soins du visage à Nampty",
+    seoTitle: "Soin du visage personnalisé à Nampty",
+    seoDescription: "Comparez les tarifs et les durées des soins du visage de L. Beauté à Nampty, de la Parenthèse Douceur au Soin Prestige personnalisé.",
+    intro: "Quatre soins du visage, de la Parenthèse Douceur au Soin Prestige personnalisé, à comparer selon le temps dont vous disposez.",
+    summary: "Douceur, purifiant et soin personnalisé",
+    guide: {
+      heading: "Trouver votre soin du visage",
+      text: "La Parenthèse Douceur est le rendez-vous le plus court de la carte. Vous pouvez aussi choisir le Soin Purifiant, ou prévoir une heure pour le Soin Anti-Âge ou le Soin Prestige, dont le contenu est personnalisé.",
+    },
+  },
+  {
+    slug: "soins-du-corps",
+    title: "Soins du corps",
+    heading: "Soins du corps à Nampty",
+    seoTitle: "Modelage et gommage du corps à Nampty",
+    seoDescription: "Découvrez les modelages du corps et du dos, le gommage aux agrumes et les parenthèses bien-être chez L. Beauté à Nampty, avec tarifs et durées.",
+    intro: "Gommage aux agrumes, modelages et soin du dos. Comparez les formats pour choisir le temps que vous souhaitez consacrer à votre soin.",
+    summary: "Gommage, modelage et soin du dos",
+    guide: {
+      heading: "Choisir entre gommage et modelage",
+      text: "Douceur éclat est consacrée au gommage, tandis que Douceur relaxante propose le choix entre un modelage du corps et un modelage du dos. La Parenthèse Bien-être réunit un gommage, un modelage et un thé beauté bio.",
+    },
+  },
+] as const;
+
+export const informations = [
+  {
+    slug: "prestations",
+    title: "Prestations",
+    heading: "Carte des prestations et tarifs",
+    seoTitle: "Prestations et tarifs de l’institut à Nampty",
+    seoDescription: "Consultez la carte et les tarifs de L. Beauté à Nampty, de l’épilation aux soins du corps, en passant par le regard, les ongles et le visage.",
+    intro: "Retrouvez les cinq familles de soins de L. Beauté à Nampty. Chaque rubrique présente ses prestations, les tarifs et les durées qui figurent sur la carte.",
+  },
+  {
+    slug: "institut",
+    title: "L’institut",
+    heading: "L’institut L. Beauté à Nampty",
+    seoTitle: "Notre institut de beauté près de Conty",
+    seoDescription: "Découvrez l’institut L. Beauté à Nampty (80160), près de Conty et d’Ô-de-Selle. Retrouvez son emplacement et préparez votre visite sur rendez-vous.",
+    intro: "Laëtitia vous accueille sur rendez-vous à Nampty, dans la vallée de la Selle, près de Conty et d’Ô-de-Selle.",
+  },
+  {
+    slug: "cartes-cadeaux",
+    title: "Cartes cadeaux",
+    heading: "Cartes cadeaux de l’institut L. Beauté",
+    seoTitle: "Carte cadeau beauté et soins à Nampty",
+    seoDescription: "Vous souhaitez offrir un soin à Nampty ? Contactez L. Beauté pour connaître les prestations à offrir et les modalités de retrait de votre carte cadeau.",
+    intro: "Offrez un moment de soin à Nampty. L’institut vous renseigne sur les soins à offrir et sur les modalités de retrait.",
+  },
+  {
+    slug: "contact",
+    title: "Contact et rendez-vous",
+    heading: "Contact et rendez-vous à Nampty",
+    seoTitle: "Contact et accès à l’institut à Nampty",
+    seoDescription: "Retrouvez les coordonnées de L. Beauté à Nampty (80160) et contactez directement L. Beauté pour prendre rendez-vous.",
+    intro: "Retrouvez les moyens de contacter L. Beauté avant votre visite.",
+  },
+] as const;
