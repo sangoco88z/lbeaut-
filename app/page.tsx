@@ -36,13 +36,12 @@ export default function Home() {
         </div>
         <figure className="home-hero-media">
           <Image
-            src="/accueil-ambiance.webp"
-            alt="Bol de soin, serviettes ivoire et branches d’eucalyptus sur une pierre claire"
+            src="/reception-l-beaute.webp"
+            alt="Accueil de L. Beauté à Nampty, avec comptoir en bois, fauteuils en rotin et plantes"
             fill
             preload
             sizes="(max-width: 767px) 100vw, 55vw"
           />
-          <figcaption className="image-note">Visuel d’ambiance provisoire</figcaption>
         </figure>
       </section>
 
@@ -88,13 +87,12 @@ export default function Home() {
         <div className="wrap section home-story-grid">
           <figure className="story-media">
             <Image
-              src="/rituel.webp"
-              alt="Flacon ambré, serviette claire et feuilles d’eucalyptus"
+              src="/cabine-soins-l-beaute.webp"
+              alt="Cabine de soins de L. Beauté à Nampty, avec table de soin et décor végétal"
               fill
               loading="lazy"
               sizes="(max-width: 630px) 91vw, (max-width: 767px) 576px, (max-width: 1370px) 44vw, 576px"
             />
-            <figcaption className="image-note">Visuel provisoire · Photo de l’institut à venir</figcaption>
           </figure>
           <div className="story-copy">
             <Sprig className="story-sprig" />

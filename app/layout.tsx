@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site";
 import { Arrow } from "@/components/brand-art";
@@ -26,7 +27,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a className="skip" href="#contenu">Aller au contenu</a>
         <header className="header">
           <div className="wrap header-inner">
-            <Link href="/" className="brand-lockup" aria-label="L. Beauté, accueil"><span className="brand">L. Beauté<span>.</span></span><span className="brand-location">Institut de beauté · Nampty</span></Link>
+            <Link href="/" className="brand-lockup" aria-label="L. Beauté, accueil">
+              <Image className="brand-logo" src="/logo-l-beaute-dore.webp" width={300} height={300} alt="Institut L. Beauté" loading="eager" unoptimized />
+            </Link>
             <nav aria-label="Navigation principale">
               <ul className="header-nav">
                 {navigation.map(({ href, label }) => <li key={href}><Link href={href}>{label}</Link></li>)}

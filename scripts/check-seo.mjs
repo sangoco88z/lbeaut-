@@ -323,7 +323,7 @@ try {
   }
   const icon = await read("/icon.svg");
   assert.match(icon.headers["content-type"], /^image\/svg\+xml/);
-  const optimized = await read("/_next/image?url=%2Faccueil-ambiance.webp&w=640&q=75", { accept: "image/webp" });
+  const optimized = await read("/_next/image?url=%2Freception-l-beaute.webp&w=640&q=75", { accept: "image/webp" });
   assert.match(optimized.headers["content-type"], /^image\/webp/);
   console.log("Vérifications SEO réussies pour les " + pages.length + " pages. Mode " + (origin ? "public." : "non indexable."));
 } catch (error) {
